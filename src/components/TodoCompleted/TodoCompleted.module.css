@@ -1,0 +1,18 @@
+.todoCompleted{
+  display: flex;
+  font-weight: 700;
+  gap: 8px;
+}
+
+.todoCompleted span{
+  font-size: 0.875rem;
+  color: var(--purple);
+}
+
+.todoCompleted p{
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
